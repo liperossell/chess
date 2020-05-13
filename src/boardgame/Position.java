@@ -1,11 +1,16 @@
 package boardgame;
 
+/**
+ * Posicao
+ * @author Filipe
+ *
+ */
 public class Position {
 	private int row; //Linha
 	private int column; //COluna
 	
 	/**
-	 * Construir uma posicao, informando linha e coluna
+	 * Cria uma posicao, informando linha e coluna
 	 * @param row
 	 * @param column
 	 */

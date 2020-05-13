@@ -1,14 +1,21 @@
 package boardgame;
 
+/**
+ * Tabuleiro
+ * @author Filipe
+ *
+ */
 public class Board {
 	
 	private int rows; //linhas do tabuleiro
 	private int columns; //colunas do tabuleiro
 	private Piece[][] pieces; //pecas do tabuleiro
 	
-	/*
+	/**
 	 * Construtor que recebe uma quantidade de linhas e colunas
 	 * Cria uma matriz de pecas no tabuleiro com base na quantidade de linhas e colunas
+	 * @param Linha
+	 * @param Coluna
 	 */
 	public Board(int rows, int columns) {
 		this.rows = rows;

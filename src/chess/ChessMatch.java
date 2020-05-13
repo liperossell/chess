@@ -2,6 +2,11 @@ package chess;
 
 import boardgame.Board;
 
+/**
+ * Partida de Xadrez
+ * @author filipe
+ *
+ */
 public class ChessMatch {
 	
 	private Board board; //Tabuleiro

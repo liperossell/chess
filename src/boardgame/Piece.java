@@ -1,11 +1,18 @@
 package boardgame;
 
+/**
+ * Peca
+ * @author Filipe
+ *
+ */
 public class Piece {
 	
 	protected Position position; //posicao (linha e coluna) da peca.
 	private Board board; //Tabuleiro qual pertence
-
-	//Construtor da peca, recebe um tabuleiro
+	/**
+	 * Cria uma nova peca, informando um tabuleiro
+	 * @param Tabuleiro
+	 */
 	public Piece(Board board) {
 		this.board = board;
 	}
