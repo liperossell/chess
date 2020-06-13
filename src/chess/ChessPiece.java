@@ -16,7 +16,7 @@ public class ChessPiece extends Piece {
 	 * Cria uma peca de xadrez, informando o tabuleiro e a cor.
 	 * 
 	 * @param Tabuleiro
-	 * @param ENUM:     Cor
+	 * @param Cor
 	 */
 	public ChessPiece(final Board board, final Color color) {
 		super(board);
