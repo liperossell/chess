@@ -10,14 +10,15 @@ import boardgame.Piece;
  */
 public class ChessPiece extends Piece {
 	
-	private Color color; //Cor da peca de xadrez
-	
+	private final Color color; // Cor da peca de xadrez
+
 	/**
 	 * Cria uma peca de xadrez, informando o tabuleiro e a cor.
+	 * 
 	 * @param Tabuleiro
-	 * @param ENUM: Cor
+	 * @param ENUM:     Cor
 	 */
-	public ChessPiece(Board board, Color color) {
+	public ChessPiece(final Board board, final Color color) {
 		super(board);
 		this.color = color;
 	}
