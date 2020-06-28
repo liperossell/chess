@@ -26,9 +26,12 @@ public abstract class Piece {
 	protected Board getBoard() {
 		return this.board;
 	}
-	
+	/**
+	 * Possiveis movimentos
+	 * @return Matriz com os possiveis movimentos da peca
+	 */
 	public abstract boolean[][] possibleMoves();
-
+	
 	public boolean possibleMove(Position position) {
 		return possibleMoves()[position.getRow()][position.getColumn()];
 	}
