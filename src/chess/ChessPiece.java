@@ -8,7 +8,7 @@ import boardgame.Piece;
  * @author Filipe
  *
  */
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 	
 	private final Color color; // Cor da peca de xadrez
 
