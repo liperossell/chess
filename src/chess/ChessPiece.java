@@ -12,7 +12,7 @@ import boardgame.Position;
 public abstract class ChessPiece extends Piece {
 	
 	private final Color color; // Cor da peca de xadrez
-
+	private int moveCount;
 	/**
 	 * Cria uma peca de xadrez, informando o tabuleiro e a cor.
 	 * 
@@ -26,6 +26,18 @@ public abstract class ChessPiece extends Piece {
 	
 	public Color getColor() {
 		return this.color;
+	}
+
+	public int getMoveCount() {
+		return moveCount;
+	}
+
+	public void increaseMoveCount(){
+		moveCount++;
+	}
+
+	public void decreaseMoveCount(){
+		moveCount--;
 	}
 
 	protected boolean isThereOpponentPiece(Position position){
